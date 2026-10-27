@@ -18,7 +18,7 @@ All files are in `course/`, in the order of the course weeks:
 
 - `BuildingYourDeepNeuralNetworkStepbyStep.py`: forward propagation keeps a `cache` per layer and `L_model_backward` walks the layers in reverse, so backpropagation is written out by hand without any framework.
 - `PlanarDataClassificationWithOneHiddenLayer.py`: the logistic regression baseline is compared to the hidden-layer network on the same non-linearly-separable data, using `plot_decision_boundary`.
-- `DeepNeuralNetworkApplication.py`: the same dataset is trained with a 2-layer and a 4-layer model, with the learning rate `0.0075` and 2500-3000 iterations; a comment in the file records an earlier try with learning rate `0.009`.
+- `DeepNeuralNetworkApplication.py`: the same dataset is trained with a 2-layer and a 4-layer model, with learning rate `0.0075` and 2500 iterations (the 2-layer model uses 7 hidden units); a comment in the file records an earlier try with learning rate `0.009`.
 
 ## Run
 
