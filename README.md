@@ -12,7 +12,6 @@ All files are in `course/`, in the order of the course weeks:
 - `PlanarDataClassificationWithOneHiddenLayer.py` - a 2-class "flower" planar dataset. First scikit-learn logistic regression as a baseline, then a hand-written network with one hidden layer (4 units): `layer_sizes`, `initialize_parameters`, `forward_propagation`, `compute_cost`, `backward_propagation`, `update_parameters`, `nn_model`, `predict`.
 - `BuildingYourDeepNeuralNetworkStepbyStep.py` - the building blocks of an L-layer network: `initialize_parameters_deep`, `linear_forward`, `linear_activation_forward` (ReLU / sigmoid), `L_model_forward`, `compute_cost`, `linear_backward`, `linear_activation_backward`, `L_model_backward`, `update_parameters`.
 - `DeepNeuralNetworkApplication.py` - uses those blocks for cat vs non-cat classification: a `two_layer_model` and an `L_layer_model` with layers `[12288, 20, 7, 5, 1]` (64x64x3 images flattened to 12288 inputs).
-- `sertificateNN.pdf` - the course completion certificate.
 
 ## Interesting bits
 
